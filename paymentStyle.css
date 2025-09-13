@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: #4c7064;
+    padding: 5px;
+}
+
+.header a{
+    text-decoration: none;
+    color: inherit; 
+}
+
+.header-title{
+    color: #000000;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 400px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;       
+    display: block;
+    margin: 0 auto;    
+    }
+
+.image-wrapper{
+    position: absolute;
+}
+
+
+.head{
+    margin: 50px 0px 0px 150px;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 30%;
+    padding: 5px 0px 5px 0px;
+    border-radius: 25px;
+    box-shadow:  0px 10px 20px rgba(0, 0, 0, 0.25);
+    /* justify-self: anchor-center; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head a{
+    text-decoration: none;
+}
+
+
+.label {
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+    color: white;
+}
+
+.payment-option label {
+    font-size: 18px;
+    /* display: flex; */
+    align-items: center;
+    gap: 5px;
+    margin-bottom:5px;
+}
+
+.loginbtn {
+    font-size: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.footerbar {
+    background-color: #4c7064;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footerbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footerbar a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footerbar a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+
+button:hover{
+    cursor: pointer;
+
+}
+
+.loginbtn {
+        position: absolute;
+    background-color: #007BFF;     
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-self: center;
+    align-self:center;
+}
+
+.loginbtn:hover {
+    background-color: #0056b3;
+}
+
+.loginbtn:active {
+    background-color: #004080;
+}
