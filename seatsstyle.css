@@ -1,0 +1,171 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+}
+
+.header{
+    background-color: #4c7064;
+    padding: 5px;
+}
+
+.header-title{
+    color: #000000;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 400px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;       
+    display: block;
+    margin: 0 auto;    
+    }
+
+.image-wrapper{
+    position: absolute;
+}
+
+.details-form{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+    float: left;
+    position: absolute;
+    background-color: rgba(200, 200, 200,0.5);
+    width: 30%;
+    border-radius: 25px;
+    box-shadow:  0px 10px 20px rgba(0, 0, 0, 0.25);
+    /* justify-self: anchor-center; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.details-head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fare-select {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.seat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.seat-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.seat {
+    display: inline-block;
+    background-color: #d3d3d3;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid transparent;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .seat {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #388e3c;
+}
+
+.seat:hover {
+    background-color: #b0bec5;
+}
+
+.aisle-space {
+    width: 30px; 
+}
+
+
+.Right-side{
+    float: left;
+    width: 30%;
+}
+
+.footerbar {
+    background-color: #4c7064;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footerbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footerbar a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footerbar a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+
+button:hover{
+    cursor: pointer;
+
+}
+
+.loginbtn {
+        position: absolute;
+    background-color: #007BFF;     
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-self: center;
+    align-self:center;
+}
+
+.loginbtn:hover {
+    background-color: #0056b3;
+}
+
+.loginbtn:active {
+    background-color: #004080;
+}
