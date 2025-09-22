@@ -23,6 +23,4 @@ It was built as a practice project to understand the basics of website design an
 
 ## 🚀 Getting Started
 1. Clone this repository:
-   ```bash
 https://github.com/adhheei/Train-booking.git
-
